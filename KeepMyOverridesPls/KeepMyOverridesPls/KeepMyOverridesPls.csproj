@@ -1,11 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="KeepMyOverridesPls.csproj.user" Condition="Exists('KeepMyOverridesPls.csproj.user')"/>
   
   <PropertyGroup>
     <ImportBSMTTargets>true</ImportBSMTTargets>
     <BSMTProjectType>BSIPA</BSMTProjectType>
-    <GameDirectory>D:\BSManager\BSInstances\1.45.1</GameDirectory>
+    <GameDirectory>D:\BSManager\BSInstances\1.45.2</GameDirectory>
     <CopyPDB>false</CopyPDB>
     <DisableCopyToGame>false</DisableCopyToGame>
     <TargetFramework>net472</TargetFramework>
